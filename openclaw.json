@@ -308,6 +308,9 @@
       "ppt-processor": {
         "enabled": true
       },
+      "project-dev-assistant": {
+        "enabled": true
+      },
       "1password": {
         "enabled": false
       },
