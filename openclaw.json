@@ -230,6 +230,14 @@
         "savePath": "/workspace/projects/workspace/qq_messages",
         "autoSummarize": true,
         "summarizeInterval": 60
+      },
+      "voiceHandling": {
+        "enabled": true,
+        "autoRecognize": true,
+        "autoReply": true,
+        "savePath": "/workspace/projects/workspace/qq_voice",
+        "defaultVoice": "XIAOHE",
+        "supportedFormats": ["mp3", "wav", "ogg", "m4a"]
       }
     },
     "feishu": {
@@ -326,6 +334,9 @@
       "nodeManager": "npm"
     },
     "entries": {
+      "qq-voice": {
+        "enabled": true
+      },
       "qq-summarizer": {
         "enabled": true
       },
