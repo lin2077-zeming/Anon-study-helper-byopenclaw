@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-17T14:42:21.747Z"
+    "lastTouchedAt": "2026-03-17T15:30:38.557Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-15T08:39:59.231Z",
@@ -213,14 +213,16 @@
   "channels": {
     "qqbot": {
       "enabled": true,
-      "appId": "",
-      "clientSecret": "",
-      "token": "",
+      "appId": 1903563540,
+      "clientSecret": "uqnljgaK2d3NZaR9",
+      "token": "1903563540:uqnljgaK2d3NZaR9",
       "sandbox": true,
       "dmPolicy": "open",
       "groupPolicy": "open",
       "requireMention": false,
-      "allowFrom": ["*"]
+      "allowFrom": [
+        "*"
+      ]
     },
     "feishu": {
       "allowFrom": [
