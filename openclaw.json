@@ -18,8 +18,19 @@
     "defaultProfile": "openclaw",
     "extraArgs": [
       "--window-size=1920,1080",
-      "--test-type"
-    ]
+      "--test-type",
+      "--enable-features=IMEIntegration",
+      "--enable-input-method",
+      "--gtk-version=4",
+      "--force-device-scale-factor=1"
+    ],
+    "env": {
+      "GTK_IM_MODULE": "ibus",
+      "QT_IM_MODULE": "ibus",
+      "XMODIFIERS": "@im=ibus",
+      "LANG": "zh_CN.UTF-8",
+      "LC_ALL": "zh_CN.UTF-8"
+    }
   },
   "models": {
     "providers": {
