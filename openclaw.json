@@ -222,7 +222,15 @@
       "requireMention": false,
       "allowFrom": [
         "*"
-      ]
+      ],
+      "groupAllowFrom": [],
+      "messageHandling": {
+        "enabled": true,
+        "saveMessages": true,
+        "savePath": "/workspace/projects/workspace/qq_messages",
+        "autoSummarize": true,
+        "summarizeInterval": 60
+      }
     },
     "feishu": {
       "allowFrom": [
@@ -318,6 +326,9 @@
       "nodeManager": "npm"
     },
     "entries": {
+      "qq-summarizer": {
+        "enabled": true
+      },
       "ppt-processor": {
         "enabled": true
       },
