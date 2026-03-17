@@ -238,6 +238,15 @@
         "savePath": "/workspace/projects/workspace/qq_voice",
         "defaultVoice": "XIAOHE",
         "supportedFormats": ["mp3", "wav", "ogg", "m4a"]
+      },
+      "stickerHandling": {
+        "enabled": true,
+        "autoLearn": true,
+        "autoUse": true,
+        "useThreshold": 0.6,
+        "savePath": "/workspace/projects/workspace/stickers",
+        "maxStickers": 500,
+        "supportedFormats": ["png", "jpg", "jpeg", "gif", "webp"]
       }
     },
     "feishu": {
@@ -334,6 +343,9 @@
       "nodeManager": "npm"
     },
     "entries": {
+      "sticker-learner": {
+        "enabled": true
+      },
       "qq-voice": {
         "enabled": true
       },
