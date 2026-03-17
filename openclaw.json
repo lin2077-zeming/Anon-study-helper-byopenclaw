@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-15T11:49:14.374Z"
+    "lastTouchedAt": "2026-03-17T14:42:21.747Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-15T08:39:59.231Z",
@@ -211,6 +211,17 @@
     "ownerDisplay": "raw"
   },
   "channels": {
+    "qqbot": {
+      "enabled": true,
+      "appId": "",
+      "clientSecret": "",
+      "token": "",
+      "sandbox": true,
+      "dmPolicy": "open",
+      "groupPolicy": "open",
+      "requireMention": false,
+      "allowFrom": ["*"]
+    },
     "feishu": {
       "allowFrom": [
         "ou_3161e85bb41ceb50b1996c1da7da3717",
@@ -405,7 +416,8 @@
       "wecom",
       "feishu-openclaw-plugin",
       "dingtalk",
-      "feishu"
+      "feishu",
+      "openclaw-qqbot"
     ],
     "entries": {
       "feishu": {
@@ -418,6 +430,9 @@
         "enabled": true
       },
       "dingtalk": {
+        "enabled": true
+      },
+      "openclaw-qqbot": {
         "enabled": true
       }
     },
@@ -460,6 +475,19 @@
         "shasum": "6532db75a202eb08818ad7536c22ff7e339b7f6b",
         "resolvedAt": "2026-03-15T08:35:24.801Z",
         "installedAt": "2026-03-15T08:35:51.416Z"
+      },
+      "openclaw-qqbot": {
+        "source": "npm",
+        "spec": "@tencent-connect/openclaw-qqbot",
+        "installPath": "/workspace/projects/extensions/openclaw-qqbot",
+        "version": "1.6.1",
+        "resolvedName": "@tencent-connect/openclaw-qqbot",
+        "resolvedVersion": "1.6.1",
+        "resolvedSpec": "@tencent-connect/openclaw-qqbot@1.6.1",
+        "integrity": "sha512-Oos4eF4ARwODKK/eCwPGJMw9a6pGWFtPr7OFO4+c6QvZfCh/zlu4AlLtOxsgBGYv/QWfsV+66/s2bR9853yalA==",
+        "shasum": "189fc1afe1faea221cc27e1f36f1c9155d5264ad",
+        "resolvedAt": "2026-03-17T14:40:12.783Z",
+        "installedAt": "2026-03-17T14:42:19.181Z"
       }
     }
   }
