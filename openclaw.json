@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-15T08:39:59.242Z"
+    "lastTouchedAt": "2026-03-15T11:49:14.374Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-15T08:39:59.231Z",
@@ -401,14 +401,15 @@
     "allow": [
       "wecom",
       "feishu-openclaw-plugin",
-      "dingtalk"
+      "dingtalk",
+      "feishu"
     ],
     "entries": {
       "feishu": {
-        "enabled": false
+        "enabled": true
       },
       "feishu-openclaw-plugin": {
-        "enabled": true
+        "enabled": false
       },
       "wecom": {
         "enabled": true
