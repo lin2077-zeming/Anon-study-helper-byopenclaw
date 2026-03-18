@@ -343,6 +343,9 @@
       "nodeManager": "npm"
     },
     "entries": {
+      "github-trending": {
+        "enabled": true
+      },
       "sticker-learner": {
         "enabled": true
       },
