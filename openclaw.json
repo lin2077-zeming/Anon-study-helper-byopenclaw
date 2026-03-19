@@ -468,6 +468,9 @@
       "gifgrep": {
         "enabled": false
       },
+      "bilibili-auto": {
+        "enabled": true
+      },
       "github-trending": {
         "enabled": true
       },
