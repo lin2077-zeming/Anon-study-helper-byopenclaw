@@ -516,6 +516,9 @@
       "qq-voice": {
         "enabled": true
       },
+      "qq-mail": {
+        "enabled": true
+      },
       "slack": {
         "enabled": false
       },
