@@ -519,6 +519,9 @@
       "qq-mail": {
         "enabled": true
       },
+      "document-processor": {
+        "enabled": true
+      },
       "slack": {
         "enabled": false
       },
